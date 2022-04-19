@@ -1,0 +1,70 @@
+.card
+{
+    background-color: white;
+    border-radius: 5px;
+    width: 90vw;
+     margin: 5rem 0;
+    border: 5px solid ;
+    padding: 1.5rem 2rem;
+max-width: 400px;
+justify-content: center;    align-items: center;
+}
+
+.heading{
+    color: black;
+    margin-left: 40px;
+    font-weight: 600px;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    margin-left: 30px;
+    align-items: center;
+  }
+   .image {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: var(--light-shadow);
+  }
+
+  .name{
+      color: black;
+      margin-left: 1rem;
+      margin-bottom: 0;
+  }
+
+  .age{
+      color: grey;
+      margin-bottom: 0;
+      margin-left: 1rem;
+    }
+
+    .button{
+        color: black;
+  display: block;
+  width: 85%;
+  border-color: transparent;
+  background: rgba(242, 138, 178, 0.8);
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin-left: 30px;
+  padding: 0.5rem 0;
+  margin-right: 30px;
+  letter-spacing: var(--spacing);
+  border-radius: 5px;
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  cursor: pointer;
+    }
+
+
+
+@media screen and (min-width: 992px) {
+      
+  }
+  
